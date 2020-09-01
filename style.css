@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;;
+}
+
+.my-navbar{
+    background-color: #f96332;
+    color: white;
+    padding: 0 30px;
+}
+
+.navbar{
+    color: white;
+}
+
+.my-navbar-item{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.8571em;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    line-height: 1.625rem;
+}
+
+.my-search-bar{
+    width: 50%;
+}
+
+
+.searchContainer {
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-flex;
+    width: 50%;
+    height: 25px;
+    line-height: 1.625rem;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .searchIcon {
+    color: #ccc;
+    padding: 0.2rem;
+    display: inline-block;
+  }
+  
+  .searchBox {
+    color: rgb(231, 229, 229);
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+  }
+
+  .searchBox::placeholder{
+      color: rgb(235, 235, 235);
+      font-size: 0.8rem;
+  }
+
+  header{
+      background-image: url(Images/Hero2.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      position: relative;
+      width: 100%;
+      
+  }
+
+  .hero-section{
+    font-family: 'Oswald', sans-serif;
+    color: rgb(252, 210, 21);
+    width: 60%;  
+    margin: auto;
+    text-align: center;
+  }
+
+  .hero-section h2{
+      font-size: 2.5rem;
+      padding-top: 8rem;
+      text-transform: uppercase;
+  }
+
+.hero-section button{
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+}
+
+.my-button{
+    width: 10rem;
+}
+
+main{
+    padding-bottom: 50px;
+}
+
+.sub-nav{
+    margin: 0 10px 50px 10px;
+    text-align: center;
+    border-bottom: solid rgba(43, 43, 43, 0.171) 1px;
+    box-sizing: border-box;
+}
+
+.tab-button{
+    background-color: rgba(255, 255, 255, 0);
+    line-height: 4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 0  2.5rem;
+    border-style: none;
+    text-transform: uppercase;
+    border-bottom: solid  rgba(252, 229, 21, 0) 3px;
+}
+
+.tab-button:hover {
+    border-bottom: solid  rgb(128, 194, 21) 3px !important;
+}
+
+
+.wrapper{
+    margin: auto;
+    width: 65%;
+    text-align: center;
+}
+
+.wrapper h1{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 40px;
+    font-size: 3rem;
+}
+
+.how-it-works{
+    display: flex;
+}
+
+.my-card{
+    margin: 20px 30px;
+}
+
+.my-card i{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.my-card h4{
+    text-align: left;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.my-card p{
+    text-align: left;
+    font-size: 0.8rem;
+}
+
+
+.my-col{
+    text-align: left;
+}
+
+.my-col:nth-child(odd){
+    text-align: right;
+}
+
+.benefits-img-1{
+    margin-right: 30px;
+}
+
+.benefits-img-2{
+    display: block;
+    height: 300px;
+    background-image: url("images/Strawberry.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    top: 280px;
+    margin-left: -110px;
+    margin-bottom: 130px;
+}
+
+.my-col {
+    height: 580px;
+}
+
+.blockquote{
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    width: 450px;
+    text-align: right;
+    border: 1px solid #888888;
+    padding: 20px;
+    font-size: 1em;
+    line-height: 1.8;
+}
+
+footer{
+    background-color: rgb(48, 48, 48);
+}
+
+.my-footer{
+    content: "";
+    padding: 20px;
+    width: 80%;
+    
+}
+
+footer ul{
+    list-style-type: none;
+    font-size: 0.8rem;
+    color: rgb(119, 118, 118);
+    margin-bottom: 0px;
+}

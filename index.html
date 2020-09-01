@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
+    <title>Harvest2Home</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b5c3d506d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark my-navbar sticky-top">
+        <a class="navbar-brand my-navbar-item" href="#">Harvest2Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <div class="searchContainer">
+                <i class="fas fa-search searchIcon"></i>
+                <input class="searchBox" type="search" name="search" placeholder="Search...">
+            </div>
+            
+          <ul class="navbar-nav mr-0">
+            <li class="nav-item dropdown my-navbar-item">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sign in
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">New acount</a>
+                <a class="dropdown-item" href="#">Login with google</a>
+              </div>
+            </li>
+            <li class="nav-item my-navbar-item active">
+                <a class="nav-link" href="#"> <i class="fas fa-shopping-cart"></i></a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header>
+        <div class="hero-section">
+            <h2>Contactless grocery delivery</h2>
+            <p>Support your farmers, buy local</p>
+            <a href="#"><button type="button" class="btn btn-success my-button">Order Now</button></a>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Nav -->
+        <div class="sub-nav">
+            <button class="tab-button" onclick="navigation('works',0)">How it works</button>
+            <button class="tab-button" onclick="navigation('benefits',1)">Benefits</button>
+            <button class="tab-button" onclick="navigation('contributors',2)">Contributors</button>
+        </div>
+
+        <div class="wrapper">
+
+            <!-- First tab -->
+            <div class="my-tab" id="works">
+                <h1>Safe The Line</h1>
+            
+                <div class="how-it-works">
+                    <div class="my-card">
+                        <i class="fas fa-shopping-basket"></i>
+                        <h4>Lorem ipsum dolor sit</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, incidunt dolores, esse aliquam impedit
+                            vero sunt sequi excepturi rem facilis, quo libero? Iusto, perspiciatis labore.</p>
+                    </div>
+                    <div class="my-card">
+                        <i class="fas fa-truck"></i>
+                        <h4>Lorem ipsum dolor sit</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, incidunt dolores, esse aliquam impedit
+                            vero sunt sequi excepturi rem facilis, quo libero? Iusto, perspiciatis labore.</p>
+                    </div>
+                    <div class="my-card">
+                        <i class="fas fa-home"></i>
+                        <h4>Lorem ipsum dolor sit</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, incidunt dolores, esse aliquam impedit
+                            vero sunt sequi excepturi rem facilis, quo libero? Iusto, perspiciatis labore.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second tab -->
+            <div class="my-tab" id="benefits" style="display: none;">
+                <div class="row">
+                    <div class="col-6 my-col">
+                        <img class="benefits-img-1" src="images/Delivery.jpg" alt="Delivery">
+                    </div>
+                    <div class="col-6 my-col">
+                        <p class=" blockquote">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rerum laborum sit,
+                            expedita inventore adipisci doloremque ipsum molestiae nam natus porro sequi. Nostrum esse eveniet vel
+                            sed voluptate fuga tempora.</p>
+            
+                        <div class="benefits-img-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Third tab -->
+            <div class="my-tab" id="contributors" style="display: none;">
+                <div class="row justify-content-center">
+                    <div class="col-4">
+                        <img src="/Images/1.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="/Images/2.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="/Images/3.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="/Images/4.png" alt="">
+                    </div>
+                    <div class="col-4">
+                        <img src="/Images/5.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="row my-footer">
+            <div class="col-2">
+                <ul>
+                    <li>Contact Us</li>
+                    <li>Aout Us</li>
+                    <li>Directions</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="col-7">
+                <ul>
+                    <li>Partners</li>
+                    <li>Careers</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul>
+                    <li>Bestsellers</li>
+                    <li>Gift Cards</li>
+                    <li>Promotions</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+      <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
